@@ -1,0 +1,151 @@
+body{
+    background-image: ("bg.png");
+    background-color: gray;
+    background-image:-moz-linear-gradient();
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    font-size: large;
+}
+.hero-left-section h1{
+color: yellow;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 30px;;
+}
+
+.hero-left-section h1{
+    position: relative;
+    bottom: 550px;
+    left:450px;
+}
+nav{
+    height: 1440px;
+    width:1440px;
+}
+.logo {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .logo img {
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+  }
+.logo{
+    
+        position: relative; /* or absolute or fixed depending on your layout */
+        bottom: 1000px;
+        right: 10px;
+      
+}
+
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 500;
+  }
+  
+  nav ul li:hover {
+    text-decoration: underline;
+    font-weight: 900;
+    background-color:black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+  }
+
+  
+li:nth-child(odd) {
+    background-color:yellow;
+  }
+  
+  li:nth-child(even) {
+    background-color:yellow;
+  }
+
+  nav ul li{
+    position: relative;
+    bottom:1250px;
+    left:600px;
+  }
+
+
+
+/* Primary button style */
+.primary-button {
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color:red;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  /* Primary button hover state */
+  .primary-button:hover {
+    background-color:black;
+  }
+  
+  /* Primary button active state */
+  .primary-button:active {
+    background-color: #0bb8e8;
+  }
+  
+  /* Secondary button style */
+  .secondary-button {
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    background-color:red;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  /* Secondary button hover state */
+  .secondary-button:hover {
+    background-color:black;
+  }
+  
+  /* Secondary button active state */
+  .secondary-button:active {
+    background-color: #d9d9d9;
+  }
+  
+.secondary-button{
+    position: relative;
+    bottom: 1400px;
+    left: 750px;
+}
+.primary-button{
+  position:relative;
+  bottom:750px;
+  left:300px;
+  
+}
+
+.logo2{
+  position: relative;
+  bottom:400px;
+  left:1170px;
+}
+
+
+
+ 
+
